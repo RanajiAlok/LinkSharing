@@ -1,0 +1,122 @@
+
+:root {
+    --primary: #4361ee;
+    --secondary: #3f37c9;
+    --accent: #4cc9f0;
+    --light: #f8f9fa;
+    --dark: #212529;
+    --gradient: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+}
+
+body {
+    background: #f8f9fc;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+
+.navbar {
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.95) !important;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+}
+
+
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-header {
+    background: var(--gradient) !important;
+    color: white !important;
+    border-radius: 12px 12px 0 0 !important;
+    padding: 1.2rem 1.5rem;
+}
+
+
+.list-group-item {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    padding: 1.5rem;
+    transition: background 0.2s ease;
+}
+
+.list-group-item:hover {
+    background: #f8f9fc;
+}
+
+
+.rounded {
+    border-radius: 50% !important;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+.btn-primary {
+    background: var(--gradient);
+    border: none;
+    padding: 0.6rem 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+
+
+.bi {
+    font-size: 1.2rem;
+    transition: color 0.2s ease;
+}
+
+.bi-facebook:hover { color: #1877f2 !important; }
+.bi-twitter:hover { color: #1da1f2 !important; }
+.bi-google:hover { color: #ea4335 !important; }
+
+
+.text-muted {
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.03);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text-muted::before {
+    content: "📭";
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+@media (max-width: 768px) {
+    .col-md-5 {
+        margin-top: 2rem;
+    }
+
+    .card {
+        margin-bottom: 1.5rem;
+    }
+}
+
+
+.dropdown-menu {
+    border: none;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
+    margin-top: 0.5rem;
+}
+
+.dropdown-item:active {
+    background: var(--primary);
+    color: white;
+}

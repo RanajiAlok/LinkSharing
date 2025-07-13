@@ -1,0 +1,82 @@
+
+
+
+.card {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #4263eb;
+    color: white;
+    padding: 15px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.table-header {
+    background-color: #4263eb;
+    color: white;
+}
+
+.table-header th {
+    font-weight: 500;
+}
+
+.btn-activate {
+    background-color: #e5f7ed;
+    color: #0a7b3f;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.btn-deactivate {
+    background-color: #fee;
+    color: #e12d39;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.top-nav {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #4263eb;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logo:hover {
+    text-decoration: none;
+    color: #3251c5;
+}
+
+.search-box {
+    position: relative;
+    margin-right: 10px;
+}
+
+.navbar-buttons a, .navbar-buttons button {
+    margin-left: 5px;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
