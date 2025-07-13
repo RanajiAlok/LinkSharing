@@ -53,14 +53,6 @@
 - Topic ↔ Invitation
 - Resource has type: Link or Document
 
-## 📸 Screens (Optional for deployment)
-Include images of:
-- Home page
-- Dashboard
-- Topic view
-- Post resource modal
-- Profile page
-
 ## ⚙️ How to Run Locally
 
 ```bash
